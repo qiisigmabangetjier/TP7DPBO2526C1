@@ -29,7 +29,6 @@ pees5-pickmok/
 ├── index.php
 ├── style.css
 └── README.md
-
 class isinya satu class buat tiap tabel, tugasnya ngurusin query ke tabel itu. config isinya koneksi database (db.php) sama beberapa fungsi kecil (helpers.php) kayak escape output, redirect, dan pesan notifikasi. view isinya tampilan HTML tiap halaman. index.php jadi pintu masuk semua halaman.
 
 database :
@@ -48,3 +47,6 @@ Di file view, kalau user klik tombol Tambah, Simpan, atau Hapus, form ngirim req
 Setelah aksi selesai, view nyimpen pesan lewat flash() terus redirect ke halaman yang sama. Ini biar kalau halaman di-refresh, form nggak kekirim dua kali. Di request berikutnya, view manggil getAll() buat ambil data dan nampilin di tabel. Tombol Edit pakai ?edit=id, nanti view manggil getById() buat ngisi form dengan data lama.
 
 Singkatnya alurnya gini: browser ke index.php, lanjut ke view, ke class, ke database, balik lagi ke class, view, dan akhirnya ke browser.
+
+link dokumentasi :
+yt : https://youtu.be/L8Dp50JJBwo?si=gEUsqlkrXGSHSpop
