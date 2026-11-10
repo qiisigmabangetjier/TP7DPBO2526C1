@@ -1,4 +1,8 @@
-PEES5 PICKMOK
+TP7DPBO - PEES5 PICKMOK
+
+TP6 DPBO – Flappy Bird
+
+janji Saya Muhammad Rifqi Nabil Purwanto dengan Nim 2511379 Mengerjakan tp 7 Pada Mata Kuliah Desain Dan Pemograman Beroreintasi Objek (DPBO) Untuk Keberkahannya Maka Saya Tidak Melakukan Kecurangan Seperti Yang Telah Dispesifikasikan,Aminn
 
 Aplikasi web berbasis PHP Native dengan konsep OOP untuk membantu memilih dan mengelola daftar game PlayStation 5 (Grand Theft Auto Jomok, EA Suki Liyar, God of War Ragnamok, dan lainnya). Seluruh query memakai Prepared Statement (PDO).
 
