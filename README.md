@@ -9,6 +9,7 @@ cara jalanin :
 Nyalain Apache sama MySQL di XAMPP, terus taruh folder project ini di htdocs. Buka phpMyAdmin, import file database/db_ps5_games.sql (databasenya kebuat otomatis). Setelah itu buka http://localhost/pees5-pickmok/ di browser.
 
 struktur :
+```
 pees5-pickmok/
 ├── class/
 │   ├── Genre.php
@@ -29,6 +30,8 @@ pees5-pickmok/
 ├── index.php
 ├── style.css
 └── README.md
+```
+
 class isinya satu class buat tiap tabel, tugasnya ngurusin query ke tabel itu. config isinya koneksi database (db.php) sama beberapa fungsi kecil (helpers.php) kayak escape output, redirect, dan pesan notifikasi. view isinya tampilan HTML tiap halaman. index.php jadi pintu masuk semua halaman.
 
 database :
